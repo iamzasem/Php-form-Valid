@@ -15,7 +15,7 @@ email: <input type="email" name="email"> <br>
 <input type="submit" value="submit">
 
 </form>
-
+<br>
 <br>
 <br>
 

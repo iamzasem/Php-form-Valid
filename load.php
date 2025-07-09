@@ -4,7 +4,7 @@ $servername = "localhost";
 $username  = "root";
 
 $password = "nitro";
-
+ 
 $dbname = "zasim";
 
 $conn = new mysqli ($servername, $username, $password, $dbname);

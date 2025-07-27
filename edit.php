@@ -16,7 +16,7 @@ if (isset($_GET['id'])) {
     } else {
         echo "No record found.";
         exit;
-    }
+    } 
 } else {
     echo "Invalid request.";
     exit;

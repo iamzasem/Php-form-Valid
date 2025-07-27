@@ -7,7 +7,7 @@ if (isset($_GET['id'])) {
     // Fetch the current data for the student
     $sql = "SELECT * FROM students WHERE id = ?";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("i", $id);
+    $stmt->bind_param("i", $id); 
     $stmt->execute();
     $result = $stmt->get_result();
 
